@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-03-14T21:50:00.852Z",
+        "line": 7,
+        "name": "User search title verification",
+        "description": "",
+        "id": "google-search-functionality;user-search-title-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2847000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on Google home page",
+            "match": {
+              "location": "com.cybertek.step_definitions.GoogleSearchFeature_stepDefinitions.user_is_on_google_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4771000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User searches for apple",
+            "match": {
+              "location": "com.cybertek.step_definitions.GoogleSearchFeature_stepDefinitions.user_searches_for_apple()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should see apple in the tile",
+            "match": {
+              "location": "com.cybertek.step_definitions.GoogleSearchFeature_stepDefinitions.user_should_see_apple_in_the_tile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Google"
+          }
+        ]
+      }
+    ],
+    "name": "Google search functionality",
+    "description": "  Agile Story: Aa user, when I am on the google\n  search page,  I should be able to search whatever\n  I want, and see relevant information",
+    "id": "google-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/googleSearch.feature",
+    "tags": []
+  }
+]
